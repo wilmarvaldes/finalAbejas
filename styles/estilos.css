@@ -15,6 +15,7 @@ ul {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .logo {
     height: 50px;
 }
@@ -51,4 +52,20 @@ ul {
 
 .secondaryButton:hover{
     box-shadow: 2px 2px rgb(20, 29, 23);
+=======
+.buscar{
+    background-color: aliceblue;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+
+.buscar:focus-within{
+    border: 1px solid green;
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
+>>>>>>> 8-crear-cuadro-busqueda
 }
